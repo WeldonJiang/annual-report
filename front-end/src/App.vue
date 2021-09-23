@@ -1,34 +1,37 @@
 <template>
-<div id ="backGround">
-  <div id="app">
-    <!-- <img src="./assets/qima_log.png">
-    <AnnulReport/> -->
-    <Index/>
+  <div id="backGround">
+    <div id="app">
+      <!-- <AnnulReport /> -->
+      <Menu/>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
-// import AnnulReport from './components/annualReport'
-import Index from './components/index'
+import AnnulReport from "./components/annualReport";
+import Menu from './components/menu'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    // AnnulReport,
-    Index
-  }
+    AnnulReport,
+    Menu
+  },
 }
 </script>
 
 <style>
-
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
-
+body {
+  background-image: url("../static/img/MicrosoftTeams-image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 2200px;
+}
 </style>
