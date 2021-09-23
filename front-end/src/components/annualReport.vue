@@ -1,8 +1,12 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }} <span style="color:red;">{{team}}</span></h1>
+    <h1>
+      {{ msg }} <span style="color: red">{{ team }}</span>
+    </h1>
     <ul>
       <li>
+        <router-link to="/index">seeShare</router-link>
+        <!-- <button id="button" @click="seeShare">seeShare</button> -->
         <a
           href="https://asiainspection.atlassian.net/wiki/spaces/IT/pages/2407006579/Hackathon+-+Gryffindor+-+Group+Annual+Report"
           target="_blank"
@@ -11,12 +15,7 @@
         </a>
       </li>
       <li>
-        <a
-          href="https://sso.qima.com/inspection/"
-          target="_blank"
-        >
-          QIMA
-        </a>
+        <a href="https://sso.qima.com/inspection/" target="_blank"> QIMA </a>
       </li>
       <li>
         <a
@@ -27,25 +26,35 @@
         </a>
       </li>
     </ul>
-    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'AnnulReport',
-  data () {
+  name: "Index",
+  data() {
     return {
-      msg: 'Welcome to',
-      team: 'Gryffindor'
-    }
-  }
-}
+      msg: "Welcome to",
+      team: "Gryffindor",
+    };
+  },
+  methods: {
+    seeShare () {
+      let routeUrl = this.$router.resolve({
+        path: "/index",
+      });
+      //let routeUrl = this.$router.resolve(`/share/${96}`)
+      window.open(routeUrl.href, "_self");
+    },
+  },
+  mounted() {},
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 ul {
@@ -59,5 +68,4 @@ li {
 a {
   color: #42b983;
 }
-
 </style>

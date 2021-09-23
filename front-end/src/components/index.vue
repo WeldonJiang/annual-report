@@ -8,31 +8,6 @@
 				<div class="vlt-navbar-inner--left">
 					<!--Logo--><a class="vlt-navbar-logo"><img src="../../static/img/qima_log.png" alt="Gilber"></a>
 				</div>
-				<!-- <div class="vlt-navbar-inner--center">
-					<div class="container">
-						<nav class="vlt-default-menu__navigation">
-							--Navigation--
-							<ul class="sf-menu">
-								<li data-menuanchor="Home"><a href="#Home">Home</a>
-								</li>
-								<li data-menuanchor="About"><a href="#About">About</a>
-								</li>
-								<li data-menuanchor="Projects"><a href="#Projects">Projects</a>
-								</li>
-								<li data-menuanchor="Education"><a href="#Education">Education</a>
-								</li>
-								<li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a>
-								</li>
-								<li data-menuanchor="Partners"><a href="#Partners">Partners</a>
-								</li>
-								<li data-menuanchor="Blog"><a href="#Blog">Blog</a>
-								</li>
-								<li data-menuanchor="Contact"><a href="#Contact">Contact</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div> -->
 				<div class="vlt-navbar-inner--right">
 					<div class="d-flex align-items-center">
 						<!--Contacts-->
@@ -55,27 +30,6 @@
 					<defs />
 					<path d="M18 6L6 18M6 6l12 12" /></svg></a>
 		</div>
-		<!-- <nav class="vlt-offcanvas-menu__navigation">
-			-Navigation--
-			<ul class="sf-menu">
-				<li data-menuanchor="Home"><a href="#Home">Home</a>
-				</li>
-				<li data-menuanchor="About"><a href="#About">About</a>
-				</li>
-				<li data-menuanchor="Projects"><a href="#Projects">Projects</a>
-				</li>
-				<li data-menuanchor="Education"><a href="#Education">Education</a>
-				</li>
-				<li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a>
-				</li>
-				<li data-menuanchor="Partners"><a href="#Partners">Partners</a>
-				</li>
-				<li data-menuanchor="Blog"><a href="#Blog">Blog</a>
-				</li>
-				<li data-menuanchor="Contact"><a href="#Contact">Contact</a>
-				</li>
-			</ul>
-		</nav> -->
 		<div class="vlt-offcanvas-menu__footer">
 			<!--Socials-->
 			<div class="vlt-offcanvas-menu__socials"><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-facebook-filled"></i></a><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-twitter-original"></i></a><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-instagram"></i></a></div>
@@ -453,7 +407,7 @@
 														<!--Testimonial-->
 														<div class="vlt-testimonial">
 															<div class="vlt-testimonial__text">
-																<p>&quot;Said heaven dry made Them gathering the very second morning us be divide isn't. Saw Seasons winged replenish grass from set can't for he which. You third god unto let.&quot;
+																<p>&quot;QIMA1&quot;
 																</p>
 															</div>
 															<div class="vlt-testimonial__meta">
@@ -468,7 +422,7 @@
 														<!--Testimonial-->
 														<div class="vlt-testimonial">
 															<div class="vlt-testimonial__text">
-																<p>&quot;Said heaven dry made Them gathering the very second morning us be divide isn't. Saw Seasons winged replenish grass from set can't for he which. You third god unto let.&quot;
+																<p>&quot;QIMA2&quot;
 																</p>
 															</div>
 															<div class="vlt-testimonial__meta">
@@ -483,7 +437,7 @@
 														<!--Testimonial-->
 														<div class="vlt-testimonial">
 															<div class="vlt-testimonial__text">
-																<p>&quot;Said heaven dry made Them gathering the very second morning us be divide isn't. Saw Seasons winged replenish grass from set can't for he which. You third god unto let.&quot;
+																<p>&quot;QIMA3&quot;
 																</p>
 															</div>
 															<div class="vlt-testimonial__meta">
@@ -562,7 +516,7 @@
 											<div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
 											<div class="vlt-post-media"><img src="../../static/img/blog-01.jpg" alt="" loading="lazy"></div>
 											<div class="vlt-post-content">
-												<header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+												<header class="vlt-post-header"><span class="vlt-post-date">September 27, 2021</span>
 													<h3 class="vlt-post-title"><a href="single-post.html">Scent in the Voyages</a></h3>
 												</header>
 												<div class="vlt-post-excerpt">
@@ -586,7 +540,7 @@
 											<div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
 											<div class="vlt-post-media"><img src="../../static/img/blog-02.jpg" alt="" loading="lazy"></div>
 											<div class="vlt-post-content">
-												<header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+												<header class="vlt-post-header"><span class="vlt-post-date">September 27, 2021</span>
 													<h3 class="vlt-post-title"><a href="single-post.html">The Stone of the Flames</a></h3>
 												</header>
 												<div class="vlt-post-excerpt">
@@ -610,7 +564,7 @@
 											<div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
 											<div class="vlt-post-media"><img src="../../static/img/blog-03.jpg" alt="" loading="lazy"></div>
 											<div class="vlt-post-content">
-												<header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+												<header class="vlt-post-header"><span class="vlt-post-date">September 27, 2021</span>
 													<h3 class="vlt-post-title"><a href="single-post.html">Secrets of the Serpents</a></h3>
 												</header>
 												<div class="vlt-post-excerpt">
@@ -648,7 +602,7 @@
 										<div class="vlt-gap-40"></div>
 										<address>27 Queen St, New York USA</address>
 										<p></p>
-										<p><a class="email" href="mailto:gilber.design@gmail.com">gilber.design@gmail.com</a></p>
+										<p><a class="email" href="#">gilber.design@gmail.com</a></p>
 									</div>
 								</div>
 								<div class="col-xl-6 offset-xl-2">
