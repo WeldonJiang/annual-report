@@ -1,21 +1,21 @@
 <template>
   <div id="backGround">
     <div id="app">
-      <AnnulReport />
-      <!-- <Index/> -->
+      <!-- <AnnulReport /> -->
+      <Menu/>
     </div>
   </div>
 </template>
 
 <script>
 import AnnulReport from "./components/annualReport";
-import Index from './components/index'
+import Menu from './components/menu'
 
 export default {
   name: "App",
   components: {
     AnnulReport,
-    Index
+    Menu
   },
 }
 </script>
