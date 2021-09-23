@@ -8,15 +8,13 @@
 </template>
 
 <script>
-import AnnulReport from "./components/annualReport";
-import Menu from './components/menu'
+import Menu from "./components/menu";
 
 export default {
   name: "App",
   components: {
-    AnnulReport,
     Menu
-  },
+  }
 }
 </script>
 

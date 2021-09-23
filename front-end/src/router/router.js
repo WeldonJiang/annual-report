@@ -13,7 +13,7 @@ export default new Router({
             name: 'Menu',
             component: Menu
         }, {
-            path: '/annualReport',
+            path: '/AnnualReport',
             name: 'AnnualReport',
             component: AnnualReport
         }
