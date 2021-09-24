@@ -19,17 +19,17 @@ export default {
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-body {
+} */
+/* body {
   background-image: url("../static/img/MicrosoftTeams-image.png");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 2300px;
-}
+} */
 </style>

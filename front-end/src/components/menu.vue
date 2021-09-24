@@ -1,49 +1,48 @@
 <template>
-  <div class="animsition">
-    <div id="dev1">
-      <ul>
-        <li>
-          <a class="vlt-social-icon vlt-social-icon--style-1" href="#"
-          ><span  @click="seeShare">seeShare</span></a>
-        </li>
-      </ul>
+  <div>
+    <canvas id="background" style="height: 100%"></canvas>
+    <div id="first-page">
+      <div id="tx1">
+        <img src="../../static/img/tx1.png" />
+        <div id="tx-title">
+          <span>QIMA AnnulReport</span>
+        </div>
+      </div>
+      <div id="tx2">
+        <img src="../../static/img/tx2.png" />
+      </div>
+      <div id="tx3">
+        <img src="../../static/img/tx3.png" />
+      </div>
+      <div id="tx4">
+        <img src="../../static/img/tx4.png" />
+        <div id="tx4-brand">Happy New Year!</div>
+      </div>
+      <div id="tx-content">
+        <span>Hello World!</span><br />
+        <span style="font-size: 38px; font-weight: 700">Hello World! 2</span><br />
+        <span>Hello World!Hello World!Hello World!Hello World!</span>
+      </div>
     </div>
-    <div id="dev2" style="display: none;">
+    <div id="tx5">
+      <a href="#"><span @click="start">Start our journey</span></a>
+    </div>
+    <div id="second-page" class="animsition" style="display: none">
       <!--Header-->
       <header class="vlt-header vlt-header--default">
-        <div
-          class="
-            vlt-navbar
-            vlt-navbar--main
-            vlt-navbar--transparent
-            vlt-navbar--sticky
-          "
-        >
+        <div class=" vlt-navbar vlt-navbar--main vlt-navbar--transparent vlt-navbar--sticky">
           <div class="vlt-navbar-background"></div>
           <div class="vlt-navbar-inner">
             <div class="vlt-navbar-inner--left">
-              <!--Logo--><a class="vlt-navbar-logo"
-                ><img src="../../static/img/qima_log.png" alt="Gilber"
-              /></a>
+              <!--Logo--><a class="vlt-navbar-logo"><img src="../../static/img/qima_log.png" alt="Gilber"/></a>
             </div>
             <div class="vlt-navbar-inner--right">
               <div class="d-flex align-items-center">
                 <!--Contacts-->
                 <div class="vlt-navbar-contacts"><a href=""></a></div>
-                <!--Menu Burger--><a
-                  class="vlt-menu-burger js-offcanvas-menu-open"
-                  href="#"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  >
+                <!--Menu Burger--><a class="vlt-menu-burger js-offcanvas-menu-open" href="#" >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"
+                    stroke-linejoin="round" >
                     <line x1="3" y1="12" x2="21" y2="12" />
                     <line x1="3" y1="6" x2="21" y2="6" />
                     <line x1="3" y1="18" x2="21" y2="18" /></svg
@@ -67,7 +66,8 @@
               js-offcanvas-menu-close
             "
             href="#"
-            ><svg
+          >
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               stroke="currentColor"
@@ -93,7 +93,7 @@
           </div>
           <!--Copyright-->
           <div class="vlt-offcanvas-menu__copyright">
-            <p>© 2020 Copyright.<br />All rights reserved.</p>
+            <p>© 2021 Copyright.<br />All rights reserved.</p>
           </div>
         </div>
       </div>
@@ -118,83 +118,14 @@
           data-loop-bottom=""
           data-speed="450"
         >
-          <!--Home-->
+          <!--Order-->
           <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="Home">
-            <div class="vlt-section__vertical-align">
-              <div class="vlt-section__content">
-                <!--Ken Burn Effect-->
-                <div class="vlt-section__ken-burn-background has-mobile-image">
-                  <img src="../../static/img/home.jpg" alt="" /><img
-                    src="../../static/img/home-mobile.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-5">
-                      <div class="vlt-gap-160"></div>
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0s; animation-duration: 700ms"
-                      >
-                        <!--Video button-->
-                        <!-- <div class="vlt-video-button"><a href="https://vimeo.com/367945766" data-fancybox data-small-btn="true" rel="nofollow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 27">
-													<defs />
-													<path fill="currentColor" d="M23.7471 13.2802L.876191 26.4847.876192.0757026 23.7471 13.2802z" /></svg></a></div> -->
-                      </div>
-                      <div class="vlt-gap-100"></div>
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.1s; animation-duration: 700ms"
-                      >
-                        <span class="vlt-display-1 has-white-color"
-                          >Product Designer</span
-                        >
-                      </div>
-                      <div class="vlt-gap-15"></div>
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.2s; animation-duration: 700ms"
-                      >
-                        <h1 class="vlt-large-heading">
-                          QIMA<span class="has-accent-color">.</span>
-                        </h1>
-                      </div>
-                      <div class="vlt-gap-15"></div>
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.3s; animation-duration: 700ms"
-                      >
-                        <p>
-                          Working with client and community, we deliver
-                          masterplans that create vibrant new places and spaces,
-                          attract people, and encourage.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--About-->
-          <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="About">
+          <div class="vlt-section pp-scrollable" data-anchor="Order">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
                 <div class="container">
                   <div class="row">
                     <div class="col-xl-6">
-                      <!--Animated Block-->
                       <div
                         class="vlt-animated-block"
                         data-animation-name="fadeInUpSm"
@@ -202,10 +133,10 @@
                       >
                         <div class="vlt-experience-block">
                           <span class="vlt-experience-block__number"
-                            >9<span class="has-accent-color">.</span></span
+                          >129<span class="has-accent-color">.</span></span
                           >
                           <h5 class="vlt-experience-block__title">
-                            Years<br />Experience<br />Working
+                            Orders<br/>Finished<br/>2021
                           </h5>
                         </div>
                       </div>
@@ -218,7 +149,7 @@
                         data-animation-name="fadeInUpSm"
                         style="animation-delay: 0.1s; animation-duration: 700ms"
                       >
-                        <h3>Great Experience</h3>
+                        <h3>GAP & <span class="has-accent-color">QIMA</span></h3>
                       </div>
                       <div class="vlt-gap-45"></div>
                       <!--Animated Block-->
@@ -228,8 +159,9 @@
                         style="animation-delay: 0.2s; animation-duration: 700ms"
                       >
                         <p>
-                          Fill appear won't may make moveth signs. Fourth. Good
-                          own. Green you're moveth us, lesser.
+                          Congratulations on completing <span class="has-accent-color">129</span> orders in QIMA.
+                          In which inspection orders are more than <span class="has-accent-color">80%</span> of QIMA
+                          customers.
                         </p>
                       </div>
                       <div class="vlt-gap-70"></div>
@@ -246,7 +178,7 @@
                           data-animation-speed="1000"
                         >
                           <h5 class="vlt-progress-bar__title">
-                            Web design<span class="counter">0</span>
+                            Inspection<span class="counter">80</span>
                           </h5>
                           <div class="vlt-progress-bar__bar"><span></span></div>
                         </div>
@@ -261,11 +193,11 @@
                         <!--Progress Bar-->
                         <div
                           class="vlt-progress-bar"
-                          data-final-value="85"
+                          data-final-value="50"
                           data-animation-speed="1000"
                         >
                           <h5 class="vlt-progress-bar__title">
-                            Figma<span class="counter">0</span>
+                            Audit<span class="counter">50</span>
                           </h5>
                           <div class="vlt-progress-bar__bar"><span></span></div>
                         </div>
@@ -280,11 +212,11 @@
                         <!--Progress Bar-->
                         <div
                           class="vlt-progress-bar"
-                          data-final-value="100"
+                          data-final-value="30"
                           data-animation-speed="1000"
                         >
                           <h5 class="vlt-progress-bar__title">
-                            WordPress<span class="counter">0</span>
+                            Certification<span class="counter">30</span>
                           </h5>
                           <div class="vlt-progress-bar__bar"><span></span></div>
                         </div>
@@ -295,973 +227,60 @@
               </div>
             </div>
           </div>
-          <!--Projects-->
+          <!--Factory-->
           <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="Projects">
-            <div class="vlt-section__vertical-align">
-              <div class="vlt-section__content">
-                <!--Projects-->
-                <div class="vlt-section__projects-background">
-                  <img
-                    class="is-active"
-                    src="../../static/img/project-01.jpg"
-                    alt=""
-                    loading="lazy"
-                  /><img
-                    src="../../static/img/project-02.jpg"
-                    alt=""
-                    loading="lazy"
-                  /><img
-                    src="../../static/img/project-03.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </div>
-                <div class="container">
-                  <div class="vlt-gap-100"></div>
-                  <!--Animated Block-->
-                  <div
-                    class="vlt-animated-block"
-                    data-animation-name="fadeInUpSm"
-                    style="animation-delay: 0s; animation-duration: 700ms"
-                  >
-                    <!--Content slider-->
-                    <div
-                      class="vlt-content-slider"
-                      data-navigation-anchor=".vlt-projects-anchor"
-                      data-effect="fade"
-                      data-gap=""
-                      data-loop=""
-                      data-speed=""
-                      data-autoplay=""
-                      data-autoplay-speed=""
-                      data-slides-centered=""
-                      data-slide-settings="{}"
-                      data-free-mode=""
-                      data-slider-offset=""
-                      data-mousewheel=""
-                    >
-                      <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <!--Product-->
-                            <article class="vlt-project">
-                              <h3 class="vlt-project-title">
-                                Watch<span class="has-accent-color">.</span>
-                              </h3>
-                              <div class="vlt-project-excerpt">
-                                <p>
-                                  Bring saw gathering kind evening them air him
-                                  void morning dominion spirit multiply seas
-                                  shall day were likeness. Upon tree a
-                                  gathering.
-                                </p>
-                              </div>
-                              <!--Button--><a
-                                class="vlt-btn vlt-btn--primary vlt-btn--md"
-                                href="single-product.html"
-                                target="_self"
-                                >See Project</a
-                              >
-                            </article>
-                          </div>
-                          <div class="swiper-slide">
-                            <!--Product-->
-                            <article class="vlt-project">
-                              <h3 class="vlt-project-title">
-                                The Bottle<span class="has-accent-color"
-                                  >.</span
-                                >
-                              </h3>
-                              <div class="vlt-project-excerpt">
-                                <p>
-                                  Working with client and community, we deliver
-                                  masterplans that create vibrant new places and
-                                  spaces, attract people, and encourage
-                                  investment through.
-                                </p>
-                              </div>
-                              <!--Button--><a
-                                class="vlt-btn vlt-btn--primary vlt-btn--md"
-                                href="single-product.html"
-                                target="_self"
-                                >See Project</a
-                              >
-                            </article>
-                          </div>
-                          <div class="swiper-slide">
-                            <!--Product-->
-                            <article class="vlt-project">
-                              <h3 class="vlt-project-title">
-                                Aesop<span class="has-accent-color">.</span>
-                              </h3>
-                              <div class="vlt-project-excerpt">
-                                <p>
-                                  Third dry hath saying our over fruit Place
-                                  creeping creepeth let Good. Created also
-                                  darkness which open appear cattle Second shall
-                                  brought wherein given. Moveth.
-                                </p>
-                              </div>
-                              <!--Button--><a
-                                class="vlt-btn vlt-btn--primary vlt-btn--md"
-                                href="single-product.html"
-                                target="_self"
-                                >See Project</a
-                              >
-                            </article>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vlt-gap-150"></div>
-                    <!--Slider controls-->
-                    <div
-                      class="
-                        vlt-slider-controls vlt-slider-controls--style-2
-                        vlt-projects-anchor
-                      "
-                    >
-                      <div class="vlt-swiper-pagination"></div>
-                      <div class="vlt-swiper-button-prev">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 45"
-                        >
-                          <defs />
-                          <path
-                            fill="currentColor"
-                            fill-rule="evenodd"
-                            d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                      <div class="vlt-swiper-button-next">
-                        <svg
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 45"
-                        >
-                          <defs />
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z"
-                            fill="currentColor"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Education-->
-          <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="Education">
+          <div class="vlt-section pp-scrollable" data-anchor="Factory">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
                 <div class="container">
-                  <div class="vlt-gap-70"></div>
-                  <!--Animated Block-->
-                  <div
-                    class="vlt-animated-block"
-                    data-animation-name="fadeInUpSm"
-                    style="animation-delay: 0s; animation-duration: 700ms"
-                  >
-                    <div
-                      class="
-                        d-block d-md-flex
-                        align-items-center
-                        justify-content-between
-                      "
-                    >
-                      <h3>Education</h3>
-                      <div class="vlt-gap-30--sm"></div>
-                      <!--Button--><a
-                        class="vlt-btn vlt-btn--primary vlt-btn--md"
-                        href="#"
-                        target="_self"
-                        >Download Resume</a
-                      >
-                    </div>
-                  </div>
-                  <div class="vlt-gap-50"></div>
-                  <!--Animated Block-->
-                  <div
-                    class="vlt-animated-block"
-                    data-animation-name="fadeInUpSm"
-                    style="animation-delay: 0.1s; animation-duration: 700ms"
-                  >
-                    <!--Content slider-->
-                    <div
-                      class="vlt-content-slider"
-                      data-navigation-anchor=".vlt-education-anchor"
-                      data-effect=""
-                      data-gap="120"
-                      data-loop=""
-                      data-speed=""
-                      data-autoplay=""
-                      data-autoplay-speed=""
-                      data-slides-centered=""
-                      data-slide-settings="{}"
-                      data-free-mode=""
-                      data-slider-offset=""
-                      data-mousewheel=""
-                    >
-                      <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/behance.png"
-                                    alt="Behance"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2019 - 2020</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Behance
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Which firmament dominion first rule and
-                                    tree. The seas he i were cattle Under
-                                    living. It may beast every forth place.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/envato.png"
-                                    alt="Envato"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2017 - 2018</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Envato
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Rule bearing whales. Created gathering
-                                    blessed, sixth likeness male. Over were
-                                    which you'll so be make moveth made saw
-                                    above.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/twitter.png"
-                                    alt="Twitter"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2015 - 2018</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Twitter
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Firmament itself rule their evening, which
-                                    moved very night so great them cattle
-                                    bearing and gathered forth had whose
-                                    bearing.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/behance.png"
-                                    alt="Behance"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2019 - 2020</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Behance
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Which firmament dominion first rule and
-                                    tree. The seas he i were cattle Under
-                                    living. It may beast every forth place.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/envato.png"
-                                    alt="Envato"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2017 - 2018</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Envato
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Rule bearing whales. Created gathering
-                                    blessed, sixth likeness male. Over were
-                                    which you'll so be make moveth made saw
-                                    above.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/twitter.png"
-                                    alt="Twitter"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2015 - 2018</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Twitter
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Firmament itself rule their evening, which
-                                    moved very night so great them cattle
-                                    bearing and gathered forth had whose
-                                    bearing.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/behance.png"
-                                    alt="Behance"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2019 - 2020</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Behance
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Which firmament dominion first rule and
-                                    tree. The seas he i were cattle Under
-                                    living. It may beast every forth place.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/envato.png"
-                                    alt="Envato"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2017 - 2018</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Envato
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Rule bearing whales. Created gathering
-                                    blessed, sixth likeness male. Over were
-                                    which you'll so be make moveth made saw
-                                    above.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <!--Timeline Item-->
-                            <div class="vlt-timeline-item">
-                              <div class="row">
-                                <div class="col-xl-4">
-                                  <img
-                                    src="../../static/img/root/twitter.png"
-                                    alt="Twitter"
-                                    loading="lazy"
-                                  />
-                                </div>
-                                <div class="col-xl-4">
-                                  <span class="vlt-timeline-item__date"
-                                    >2015 - 2018</span
-                                  >
-                                  <h5 class="vlt-timeline-item__title">
-                                    Twitter
-                                  </h5>
-                                </div>
-                                <div class="col-xl-4">
-                                  <p class="vlt-timeline-item__text">
-                                    Firmament itself rule their evening, which
-                                    moved very night so great them cattle
-                                    bearing and gathered forth had whose
-                                    bearing.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vlt-gap-75"></div>
-                    <!--Slider controls-->
-                    <div
-                      class="
-                        vlt-slider-controls vlt-slider-controls--style-2
-                        vlt-education-anchor
-                      "
-                    >
-                      <div class="vlt-swiper-pagination"></div>
-                      <div class="vlt-swiper-button-prev">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 45"
-                        >
-                          <defs />
-                          <path
-                            fill="currentColor"
-                            fill-rule="evenodd"
-                            d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                      <div class="vlt-swiper-button-next">
-                        <svg
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 45"
-                        >
-                          <defs />
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z"
-                            fill="currentColor"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Testimonials-->
-          <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="Testimonials">
-            <div class="vlt-section__vertical-align">
-              <div class="vlt-section__content">
-                <!--Ken Burn Effect-->
-                <div class="vlt-section__ken-burn-background">
-                  <img src="../../static/img/testimonials.jpg" alt="" />
-                </div>
-                <div class="container">
-                  <div class="row align-items-end">
-                    <div class="col-xl-6">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="vlt-gap-160"></div>
                       <!--Animated Block-->
                       <div
                         class="vlt-animated-block"
                         data-animation-name="fadeInUpSm"
                         style="animation-delay: 0s; animation-duration: 700ms"
                       >
-                        <div class="has-accent-color">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 75 75"
-                            style="height: 75px"
-                          >
-                            <defs />
-                            <path
-                              fill="currentColor"
-                              d="M25 0C16.9271 0 10.7422 2.14844 6.44531 6.44531 2.14844 10.7422 0 16.9271 0 25v50h31.25V25H12.5c0-4.4271.9766-7.6172 2.9297-9.5703C17.3828 13.4766 20.5729 12.5 25 12.5V0zm43.75 0c-8.0729 0-14.2578 2.14844-18.5547 6.44531C45.8984 10.7422 43.75 16.9271 43.75 25v50H75V25H56.25c0-4.4271.9766-7.6172 2.9297-9.5703C61.1328 13.4766 64.3229 12.5 68.75 12.5V0z"
-                            />
-                          </svg>
-                          <div class="vlt-gap-215 vlt-gap-100--lg"></div>
-                          <h3>
-                            Creative & dedicated is things that gilber studio
-                            brings for your business.
-                          </h3>
-                        </div>
                       </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 offset-xl-2">
-                      <div class="vlt-gap-70--lg"></div>
+                      <div class="vlt-gap-100"></div>
                       <!--Animated Block-->
                       <div
                         class="vlt-animated-block"
                         data-animation-name="fadeInUpSm"
                         style="animation-delay: 0.1s; animation-duration: 700ms"
                       >
-                        <!--Content slider-->
-                        <div
-                          class="vlt-content-slider"
-                          data-navigation-anchor=".vlt-testimonials-anchor"
-                          data-effect=""
-                          data-gap=""
-                          data-loop=""
-                          data-speed=""
-                          data-autoplay=""
-                          data-autoplay-speed=""
-                          data-slides-centered=""
-                          data-slide-settings="{}"
-                          data-free-mode=""
-                          data-slider-offset=""
-                          data-mousewheel=""
+                        <span class="vlt-display-1 has-white-color"
+                        >2021 Most Order Factories: Foxconn</span
                         >
-                          <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                <!--Testimonial-->
-                                <div class="vlt-testimonial">
-                                  <div class="vlt-testimonial__text">
-                                    <p>&quot;QIMA1&quot;</p>
-                                  </div>
-                                  <div class="vlt-testimonial__meta">
-                                    <h5 class="vlt-testimonial__name">
-                                      Dwight Schrute
-                                    </h5>
-                                    <div class="vlt-testimonial__function">
-                                      The Office
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <!--Testimonial-->
-                                <div class="vlt-testimonial">
-                                  <div class="vlt-testimonial__text">
-                                    <p>&quot;QIMA2&quot;</p>
-                                  </div>
-                                  <div class="vlt-testimonial__meta">
-                                    <h5 class="vlt-testimonial__name">
-                                      Paul &amp; Amanda
-                                    </h5>
-                                    <div class="vlt-testimonial__function">
-                                      Envato Studio
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <!--Testimonial-->
-                                <div class="vlt-testimonial">
-                                  <div class="vlt-testimonial__text">
-                                    <p>&quot;QIMA3&quot;</p>
-                                  </div>
-                                  <div class="vlt-testimonial__meta">
-                                    <h5 class="vlt-testimonial__name">
-                                      Ramsay Bolton
-                                    </h5>
-                                    <div class="vlt-testimonial__function">
-                                      Apple Inc
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="vlt-gap-75"></div>
-                        <!--Slider controls-->
-                        <div
-                          class="
-                            vlt-slider-controls vlt-slider-controls--style-1
-                            vlt-testimonials-anchor
-                          "
-                        >
-                          <div class="vlt-swiper-button-prev">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 45"
-                            >
-                              <defs />
-                              <path
-                                fill="currentColor"
-                                fill-rule="evenodd"
-                                d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z"
-                                clip-rule="evenodd"
-                              />
-                            </svg>
-                          </div>
-                          <div class="vlt-swiper-button-next">
-                            <svg
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 45"
-                            >
-                              <defs />
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </div>
-                        </div>
+
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Partners-->
-          <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="Partners">
-            <div class="vlt-section__vertical-align">
-              <div class="vlt-section__content">
-                <div class="container">
-                  <!--Animated Block-->
-                  <div
-                    class="vlt-animated-block"
-                    data-animation-name="fadeInUpSm"
-                    style="animation-delay: 0s; animation-duration: 700ms"
-                  >
-                    <h3>Partners</h3>
-                  </div>
-                  <div class="vlt-gap-100"></div>
-                  <!--Animated Block-->
-                  <div
-                    class="vlt-animated-block"
-                    data-animation-name="fadeInUpSm"
-                    style="animation-delay: 0.1s; animation-duration: 700ms"
-                  >
-                    <ul class="vlt-partners">
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-01.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-02.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-03.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-04.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-05.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-06.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-07.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="../../static/img/root/logo-08.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Blog-->
-          <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="Blog">
-            <div class="vlt-section__vertical-align">
-              <div class="vlt-section__content">
-                <div class="container">
-                  <!--Animated Block-->
-                  <div
-                    class="vlt-animated-block"
-                    data-animation-name="fadeInUpSm"
-                    style="animation-delay: 0s; animation-duration: 700ms"
-                  >
-                    <h3>Recent news</h3>
-                  </div>
-                  <div class="vlt-gap-100"></div>
-                  <div class="row">
-                    <div class="col-xl-4">
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.1s; animation-duration: 700ms"
-                      >
-                        <!--Blog Item-->
-                        <article class="vlt-post vlt-post--masonry">
-                          <div class="vlt-post-border">
-                            <span class="top"></span><span class="right"></span
-                            ><span class="bottom"></span
-                            ><span class="left"></span>
-                          </div>
-                          <div class="vlt-post-media">
-                            <img
-                              src="../../static/img/blog-01.jpg"
-                              alt=""
-                              loading="lazy"
-                            />
-                          </div>
-                          <div class="vlt-post-content">
-                            <header class="vlt-post-header">
-                              <span class="vlt-post-date"
-                                >September 27, 2021</span
-                              >
-                              <h3 class="vlt-post-title">
-                                <a href="single-post.html"
-                                  >Scent in the Voyages</a
-                                >
-                              </h3>
-                            </header>
-                            <div class="vlt-post-excerpt">
-                              <p>
-                                Let years seasons given two fowl above is itself
-                                shall third night female seasons you’re whales,
-                                unto had fowl Herb. Moving so. Said be fruitful
-                                first lights creeping deep void, lesser.
-                              </p>
-                            </div>
-                            <footer class="vlt-post-footer">
-                              <a
-                                class="vlt-read-more-link"
-                                href="single-post.html"
-                              >
-                                Read more<svg
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 16 8"
-                                >
-                                  <defs />
-                                  <path
-                                    d="M15.3536 4.35355c.1952-.19526.1952-.51184 0-.7071L12.1716.464466c-.1953-.195262-.5119-.195262-.7071 0-.1953.195262-.1953.511845 0 .707104L14.2929 4l-2.8284 2.82843c-.1953.19526-.1953.51184 0 .7071.1952.19527.5118.19527.7071 0l3.182-3.18198zM0 4.5h15v-1H0v1z"
-                                    fill="currentColor"
-                                  /></svg
-                              ></a>
-                            </footer>
-                          </div>
-                        </article>
-                      </div>
-                    </div>
-                    <div class="col-xl-4">
-                      <div class="vlt-gap-30--lg"></div>
+                      <div class="vlt-gap-15"></div>
                       <!--Animated Block-->
                       <div
                         class="vlt-animated-block"
                         data-animation-name="fadeInUpSm"
                         style="animation-delay: 0.2s; animation-duration: 700ms"
                       >
-                        <!--Blog Item-->
-                        <article class="vlt-post vlt-post--masonry">
-                          <div class="vlt-post-border">
-                            <span class="top"></span><span class="right"></span
-                            ><span class="bottom"></span
-                            ><span class="left"></span>
-                          </div>
-                          <div class="vlt-post-media">
-                            <img
-                              src="../../static/img/blog-02.jpg"
-                              alt=""
-                              loading="lazy"
-                            />
-                          </div>
-                          <div class="vlt-post-content">
-                            <header class="vlt-post-header">
-                              <span class="vlt-post-date"
-                                >September 27, 2021</span
-                              >
-                              <h3 class="vlt-post-title">
-                                <a href="single-post.html"
-                                  >The Stone of the Flames</a
-                                >
-                              </h3>
-                            </header>
-                            <div class="vlt-post-excerpt">
-                              <p>
-                                Let years seasons given two fowl above is itself
-                                shall third night female seasons you’re whales,
-                                unto had fowl Herb. Moving so. Said be fruitful
-                                first lights creeping deep void, lesser.
-                              </p>
-                            </div>
-                            <footer class="vlt-post-footer">
-                              <a
-                                class="vlt-read-more-link"
-                                href="single-post.html"
-                              >
-                                Read more<svg
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 16 8"
-                                >
-                                  <defs />
-                                  <path
-                                    d="M15.3536 4.35355c.1952-.19526.1952-.51184 0-.7071L12.1716.464466c-.1953-.195262-.5119-.195262-.7071 0-.1953.195262-.1953.511845 0 .707104L14.2929 4l-2.8284 2.82843c-.1953.19526-.1953.51184 0 .7071.1952.19527.5118.19527.7071 0l3.182-3.18198zM0 4.5h15v-1H0v1z"
-                                    fill="currentColor"
-                                  /></svg
-                              ></a>
-                            </footer>
-                          </div>
-                        </article>
+                        <h4 class="vlt-large-heading">
+                          GAP & <span class="has-accent-color">QIMA</span> & Foxconn
+                        </h4>
                       </div>
-                    </div>
-                    <div class="col-xl-4">
-                      <div class="vlt-gap-30--lg"></div>
+                      <div class="vlt-gap-15"></div>
                       <!--Animated Block-->
                       <div
                         class="vlt-animated-block"
                         data-animation-name="fadeInUpSm"
                         style="animation-delay: 0.3s; animation-duration: 700ms"
                       >
-                        <!--Blog Item-->
-                        <article class="vlt-post vlt-post--masonry">
-                          <div class="vlt-post-border">
-                            <span class="top"></span><span class="right"></span
-                            ><span class="bottom"></span
-                            ><span class="left"></span>
-                          </div>
-                          <div class="vlt-post-media">
-                            <img
-                              src="../../static/img/blog-03.jpg"
-                              alt=""
-                              loading="lazy"
-                            />
-                          </div>
-                          <div class="vlt-post-content">
-                            <header class="vlt-post-header">
-                              <span class="vlt-post-date"
-                                >September 27, 2021</span
-                              >
-                              <h3 class="vlt-post-title">
-                                <a href="single-post.html"
-                                  >Secrets of the Serpents</a
-                                >
-                              </h3>
-                            </header>
-                            <div class="vlt-post-excerpt">
-                              <p>
-                                Let years seasons given two fowl above is itself
-                                shall third night female seasons you’re whales,
-                                unto had fowl Herb. Moving so. Said be fruitful
-                                first lights creeping deep void, lesser.
-                              </p>
-                            </div>
-                            <footer class="vlt-post-footer">
-                              <a
-                                class="vlt-read-more-link"
-                                href="single-post.html"
-                              >
-                                Read more<svg
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 16 8"
-                                >
-                                  <defs />
-                                  <path
-                                    d="M15.3536 4.35355c.1952-.19526.1952-.51184 0-.7071L12.1716.464466c-.1953-.195262-.5119-.195262-.7071 0-.1953.195262-.1953.511845 0 .707104L14.2929 4l-2.8284 2.82843c-.1953.19526-.1953.51184 0 .7071.1952.19527.5118.19527.7071 0l3.182-3.18198zM0 4.5h15v-1H0v1z"
-                                    fill="currentColor"
-                                  /></svg
-                              ></a>
-                            </footer>
-                          </div>
-                        </article>
+
+                        <h5>
+                          Congratulations on completing <span class="has-accent-color">30</span> inspections on products
+                          of Foxconn this year.
+                        </h5>
+                        <h5>
+                          More than <span class="has-accent-color">20%</span> of your total inspections.
+                        </h5>
                       </div>
                     </div>
                   </div>
@@ -1269,96 +288,61 @@
               </div>
             </div>
           </div>
-          <!--Contact-->
-          <!--Section-->
-          <div class="vlt-section pp-scrollable" data-anchor="Contact">
+          <!--Trend-->
+          <div class="vlt-section pp-scrollable" data-anchor="Trend">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <!--Ken Burn Effect-->
-                <div class="vlt-section__ken-burn-background">
-                  <img src="../../static/img/contact.jpg" alt="" />
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xl-4">
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0s; animation-duration: 700ms"
-                      >
-                        <h3>Contact</h3>
-                        <div class="vlt-gap-30"></div>
-                        <p>
-                          You'll called for yielding male, so lights Stars
-                          abundantly, is their.
-                        </p>
-                        <div class="vlt-gap-40"></div>
-                        <address>27 Queen St, New York USA</address>
-                        <p></p>
-                        <p>
-                          <a class="email" href="#">gilber.design@gmail.com</a>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 offset-xl-2">
-                      <div class="vlt-gap-70--lg"></div>
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.1s; animation-duration: 700ms"
-                      >
-                        <h4>
-                          Let's grab a coffee and jump on conversation
-                          <span class="has-accent-color">chat with me.</span>
-                        </h4>
-                        <div class="vlt-gap-20"></div>
-                        <form class="vlt-contact-form" novalidate="novalidate">
-                          <div class="vlt-form-group">
-                            <input
-                              type="text"
-                              id="name"
-                              name="name"
-                              required="required"
-                              placeholder="Your Name"
-                            />
-                          </div>
-                          <div class="vlt-form-group">
-                            <input
-                              type="email"
-                              id="email"
-                              name="email"
-                              required="required"
-                              placeholder="Your Email"
-                            />
-                          </div>
-                          <div class="vlt-form-group">
-                            <textarea
-                              name="message"
-                              id="message"
-                              rows="3"
-                              placeholder="Message"
-                            ></textarea>
-                          </div>
-                          <div class="message success">
-                            Your message is successfully sent...
-                          </div>
-                          <div class="message danger">
-                            Sorry something went wrong!
-                          </div>
-                          <!--Button-->
-                          <button class="vlt-btn vlt-btn--primary vlt-btn--md">
-                            Contact Me
-                          </button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
+                <h4 style="position: absolute; top: 120px; right: 778px;">
+                  <span class="has-accent-color">GAP & QIMA Order Trends</span>
+                </h4>
+                <div class="vlt-section__projects-background">
+                  <img
+                    class="is-active"
+                    src="../../static/img/OrderTrends.png"
+                    alt=""
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </div>
           </div>
+          <!--Flow-->
+          <div class="vlt-section pp-scrollable" data-anchor="Flow">
+            <div class="vlt-section__vertical-align">
+              <div class="vlt-section__content">
+                <h4 style="position: absolute;top: 20px;right: 70px;">
+                  <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
+                </h4>
+                <div class="vlt-section__projects-background">
+                  <img
+                    class="is-active"
+                    src="../../static/img/MapFlow.gif"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--ServiceType-->
+          <div class="vlt-section pp-scrollable" data-anchor="ServiceType">
+            <div class="vlt-section__vertical-align">
+              <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 120px; right: 778px;">
+                  <span class="has-accent-color">GAP & QIMA Service Types</span>
+                </h4>
+                <div class="vlt-section__projects-background">
+                  <img
+                    class="is-active"
+                    src="../../static/img/ServiceTypes.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!--Progress Bar-->
           <div class="vlt-fullpage-slider-progress-bar"><span></span></div>
         </div>
@@ -1375,29 +359,145 @@
 
 <script>
 export default {
+  name: "menu",
   data() {
-    return {
-      msg: "Welcome to",
-      team: "Gryffindor",
-    };
+    return {};
   },
   methods: {
-    seeShare() {
-      debugger;
-      $("#dev1").hide();
-      $("#dev2").show();
-      // let routeUrl = this.$router.resolve({
-      //   path: "/annualReport",
-      // });
-      // window.open(routeUrl.href, "_self");
+    start() {
+      $("#first-page").hide();
+      $("#tx5").hide();
+      $("#second-page").show();
+      $("#background").hide();
     },
   },
-  mounted() {},
+  mounted() {}
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Georgia";
+}
+#first-page {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+.hide {
+  display: none;
+}
+.default-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#tx1 {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+#tx-title {
+  display: none;
+  width: 360px;
+  height: 45px;
+  position: absolute;
+  top: 93px;
+  left: 750px;
+  text-align: center;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+}
+#tx2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+#tx3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+#tx4 {
+  height: 100%;
+  width: 757px;
+  position: absolute;
+  z-index: 4;
+}
+#tx4-brand {
+  position: absolute;
+  bottom: 110px;
+  left: 120px;
+  width: 380px;
+  height: 220px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 220px;
+  transform: rotate(13deg);
+  -ms-transform: rotate(13deg);
+  -moz-transform: rotate(13deg);
+  -webkit-transform: rotate(13deg);
+  -o-transform: rotate(13deg);
+}
+#tx-content {
+  text-align: center;
+  color: #000;
+  width: 780px;
+  display: none;
+  height: 300px;
+  position: absolute;
+  top: 180px;
+  left: 550px;
+  text-align: center;
+  font-size: 28px;
+  z-index: 5;
+}
+#tx5 {
+  display: none;
+  text-align: center;
+  color: #000;
+  width: 220px;
+  height: 300px;
+  position: absolute;
+  top: 580px;
+  left: 830px;
+  font-size: 28px;
+  z-index: 101;
+}
+#tx5 a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #f0a4ae;
+  background: #f0a4ae;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  font-size: 22px;
+  border-radius: 24px;
+}
+#tx5 a:hover {
+  background: #ff8a9a;
+}
 h1,
 h2 {
   font-weight: normal;
@@ -1413,7 +513,14 @@ li {
 a {
   color: #42b983;
 }
-#dev1{
-  padding-top: 300px;
+#second-page{
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  overflow:scroll;
 }
+.vlt-section__content{
+  position: relative;
+}
+
 </style>
