@@ -30,6 +30,6 @@ body {
   background-image: url("../static/img/MicrosoftTeams-image.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 2200px;
+  height: 2300px;
 }
 </style>
