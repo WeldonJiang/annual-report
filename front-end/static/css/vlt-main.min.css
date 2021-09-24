@@ -2276,7 +2276,7 @@ input[type=date]:focus::-webkit-input-placeholder, input[type=email]:focus::-web
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
-  background-color: #e4e4e4;
+  background-image: url('../../static/img/tx5.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2292,7 +2292,10 @@ input[type=date]:focus::-webkit-input-placeholder, input[type=email]:focus::-web
   -webkit-flex-direction: column;
   -ms-flex-direction: column
 }
-
+body{
+  width: 1920px;
+  height: 1080px;
+}
 .vlt-fullpage-slider .vlt-section__vertical-align {
   display: -webkit-box;
   display: -webkit-flex;
