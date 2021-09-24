@@ -128,7 +128,8 @@
                   <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
                 <h4 style="margin-top: -650px;margin-left: 400px">
-                  We are so happy that you and QIMA have so many business communications.
+                  In 2021, we have finished 1999 orders together, in which inspection orders took up the largest part.
+                  You are the king of inspection service.
                   <br/>
                   Here are the <span class="has-accent-color">QIMA Services</span> we have provided.
                 </h4>
