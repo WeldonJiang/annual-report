@@ -16,7 +16,7 @@
       </div>
       <div id="tx4">
         <img src="../../static/img/tx4.png" />
-        <div id="tx4-brand">Happy holidays Mr. Gryffindor!</div>
+        <div id="tx4-brand">Happy holidays</div>
       </div>
       <div id="tx-content"> 
         <span>Happy holidays Mr. Gryffindor!</span><br />
