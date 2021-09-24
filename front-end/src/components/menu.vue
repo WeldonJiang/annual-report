@@ -5,7 +5,7 @@
       <div id="tx1">
         <img src="../../static/img/tx1.png" />
         <div id="tx-title">
-          <span>QIMA AnnulReport</span>
+          <span>Our Memory for 2021</span>
         </div>
       </div>
       <div id="tx2">
@@ -16,12 +16,13 @@
       </div>
       <div id="tx4">
         <img src="../../static/img/tx4.png" />
-        <div id="tx4-brand">Happy New Year!</div>
+        <div id="tx4-brand">Happy holidays</div>
       </div>
-      <div id="tx-content">
-        <span>Hello World!</span><br />
-        <span style="font-size: 38px; font-weight: 700">Hello World! 2</span><br />
-        <span>Hello World!Hello World!Hello World!Hello World!</span>
+      <div id="tx-content"> 
+        <span>Happy holidays Mr. Gryffindor!</span><br />
+        <span style="font-size: 38px; font-weight: 700">You and QIMA have come together for 1059 days</span><br /><br />
+        <span>On the date of Jan.16th 2019 </span><br/>
+        <span>We met each other</span>
       </div>
     </div>
     <div id="tx5">
@@ -118,11 +119,37 @@
           data-loop-bottom=""
           data-speed="450"
         >
+
+          <!--ServiceType-->
+          <div class="vlt-section pp-scrollable" data-anchor="ServiceType">
+            <div class="vlt-section__vertical-align">
+              <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                </h4>
+                <h4 style="margin-top: -600px;alignment: center">
+                  We are so happy that you and QIMA have so many business communications.
+                  Here are the <span class="has-accent-color">QIMA Services</span> we have provided.
+                </h4>
+                <div class="vlt-section__projects-background">
+                  <img
+                    class="is-active"
+                    src="../../static/img/ServiceTypes.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!--Order-->
-          <!--Section-->
           <div class="vlt-section pp-scrollable" data-anchor="Order">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                </h4>
                 <div class="container">
                   <div class="row">
                     <div class="col-xl-6">
@@ -227,53 +254,43 @@
               </div>
             </div>
           </div>
+
           <!--Factory-->
-          <!--Section-->
           <div class="vlt-section pp-scrollable" data-anchor="Factory">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                </h4>
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-5">
                       <div class="vlt-gap-160"></div>
                       <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0s; animation-duration: 700ms"
-                      >
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0s; animation-duration: 700ms">
                       </div>
                       <div class="vlt-gap-100"></div>
                       <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.1s; animation-duration: 700ms"
-                      >
-                        <span class="vlt-display-1 has-white-color"
-                        >2021 Most Order Factories: Foxconn</span
-                        >
-
-                      </div>
                       <div class="vlt-gap-15"></div>
                       <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.2s; animation-duration: 700ms"
-                      >
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0.2s; animation-duration: 700ms">
                         <h4 class="vlt-large-heading">
                           GAP & <span class="has-accent-color">QIMA</span> & Foxconn
                         </h4>
                       </div>
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0.1s; animation-duration: 700ms">
+                        <span>2021 Most Order Factories: Foxconn</span>
+                      </div>
                       <div class="vlt-gap-15"></div>
-                      <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.3s; animation-duration: 700ms"
-                      >
-
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0.3s; animation-duration: 700ms">
                         <h5>
                           Congratulations on completing <span class="has-accent-color">30</span> inspections on products
                           of Foxconn this year.
@@ -288,12 +305,13 @@
               </div>
             </div>
           </div>
+
           <!--Trend-->
           <div class="vlt-section pp-scrollable" data-anchor="Trend">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 120px; right: 778px;">
-                  <span class="has-accent-color">GAP & QIMA Order Trends</span>
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
                 </h4>
                 <div class="vlt-section__projects-background">
                   <img
@@ -310,13 +328,17 @@
           <div class="vlt-section pp-scrollable" data-anchor="Flow">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute;top: 20px;right: 70px;">
-                  <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
                 </h4>
+                <h5 style="position: absolute;top: 120px;right: 70px;">
+                  <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
+                </h5>
                 <div class="vlt-section__projects-background">
                   <img
                     class="is-active"
                     src="../../static/img/MapFlow.gif"
+                    style="margin-top: 100px"
                     alt=""
                     loading="lazy"
                   />
@@ -324,25 +346,6 @@
               </div>
             </div>
           </div>
-          <!--ServiceType-->
-          <div class="vlt-section pp-scrollable" data-anchor="ServiceType">
-            <div class="vlt-section__vertical-align">
-              <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 120px; right: 778px;">
-                  <span class="has-accent-color">GAP & QIMA Service Types</span>
-                </h4>
-                <div class="vlt-section__projects-background">
-                  <img
-                    class="is-active"
-                    src="../../static/img/ServiceTypes.png"
-                    alt=""
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
           <!--Progress Bar-->
           <div class="vlt-fullpage-slider-progress-bar"><span></span></div>
         </div>
@@ -465,7 +468,7 @@ body {
   display: none;
   height: 300px;
   position: absolute;
-  top: 180px;
+  top: 200px;
   left: 550px;
   text-align: center;
   font-size: 28px;
@@ -520,7 +523,13 @@ a {
   overflow:scroll;
 }
 .vlt-section__content{
-  position: relative;
+  position: relative; 
 }
-
+.vlt-experience-block__number{
+  line-height: 230px;
+}
+.vlt-experience-block__title{
+  height: 220px;
+  padding-top: 80px;
+}
 </style>
