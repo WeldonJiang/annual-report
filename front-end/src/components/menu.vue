@@ -130,13 +130,16 @@
                 <h4 style="position: absolute; top: 15px; right: 778px;">
                   <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
-                <h4 style="margin-top: -650px;margin-left: 400px">
-                  We are so happy that you and QIMA have so many business communications.
+                <h4 style="margin-top: -550px;margin-left: 500px">
+                  In 2021, we have finished 1999 orders together,
                   <br/>
-                  Here are the <span class="has-accent-color">QIMA Services</span> we have provided.
+                  in which inspection orders took up the largest part.
+                  <br/>
+                  You are the <span class="has-accent-color">king of inspection!</span>
                 </h4>
                 <div class="vlt-section__projects-background">
                   <img
+                    style="margin-top: 50px"
                     class="is-active"
                     src="../../static/img/ServiceTypes1.png"
                     alt=""
@@ -160,27 +163,23 @@
                       <div
                         class="vlt-animated-block"
                         data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0s; animation-duration: 700ms"
-                      >
+                        style="animation-delay: 0s; animation-duration: 700ms">
                         <div class="vlt-experience-block">
-                          <span class="vlt-experience-block__number"
-                          >129</span
-                          >
-                          <h5 class="vlt-experience-block__title">
-                            Orders<br/>Finished<br/>2021
+                          <h5>
+                            Exceeded
                           </h5>
+                          <span class="vlt-experience-block__number">90%</span>
+                          <h5>QIMA customers</h5>
                         </div>
                       </div>
                       <div class="vlt-gap-100--lg"></div>
                     </div>
                     <div class="col-xl-6 col-md-8">
                       <!--Animated Block-->
-                      <div
-                        class="vlt-animated-block"
-                        data-animation-name="fadeInUpSm"
-                        style="animation-delay: 0.1s; animation-duration: 700ms"
-                      >
-                        <h3>GAP & <span class="has-accent-color">QIMA</span></h3>
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0.1s; animation-duration: 700ms">
+                        <h3>{{customerName}} & <span class="has-accent-color">QIMA</span></h3>
                       </div>
                       <div class="vlt-gap-45"></div>
                       <!--Animated Block-->
@@ -189,11 +188,11 @@
                         data-animation-name="fadeInUpSm"
                         style="animation-delay: 0.2s; animation-duration: 700ms"
                       >
-                        <p>
-                          Congratulations on completing <span class="has-accent-color">129</span> orders in QIMA.
-                          In which inspection orders are more than <span class="has-accent-color">80%</span> of QIMA
+                        <h4>
+                          Congratulations on completing <span class="has-accent-color">1999</span> orders in QIMA.
+                          In which inspection orders are more than <span class="has-accent-color">90%</span> of QIMA
                           customers.
-                        </p>
+                        </h4>
                       </div>
                       <div class="vlt-gap-70"></div>
                       <!--Animated Block-->
@@ -205,11 +204,11 @@
                         <!--Progress Bar-->
                         <div
                           class="vlt-progress-bar"
-                          data-final-value="80"
+                          data-final-value="90"
                           data-animation-speed="1000"
                         >
                           <h5 class="vlt-progress-bar__title">
-                            Inspection<span class="counter">80</span>
+                            Inspection<span class="counter">90</span>
                           </h5>
                           <div class="vlt-progress-bar__bar"><span></span></div>
                         </div>
@@ -283,24 +282,24 @@
                            data-animation-name="fadeInUpSm"
                            style="animation-delay: 0.2s; animation-duration: 700ms">
                         <h2 class="vlt-large-heading">
-                          GAP & <span class="has-accent-color">QIMA</span> & Foxconn
+                          {{customerName}} & <span class="has-accent-color">QIMA</span> & Foxconn
                         </h2>
                       </div>
                       <div class="vlt-animated-block"
                            data-animation-name="fadeInUpSm"
                            style="animation-delay: 0.1s; animation-duration: 700ms">
-                        <span>2021 Most Order Factories: Foxconn</span>
+                        <h4>2021 Most Order Factories: Foxconn</h4>
                       </div>
                       <div class="vlt-gap-15"></div>
                       <div class="vlt-animated-block"
                            data-animation-name="fadeInUpSm"
                            style="animation-delay: 0.3s; animation-duration: 700ms">
                         <h5>
-                          Congratulations on completing <span class="has-accent-color">30</span> inspections on products
+                          Congratulations on completing more than <span class="has-accent-color">800</span> inspections on products
                           of Foxconn this year.
                         </h5>
                         <h5>
-                          More than <span class="has-accent-color">20%</span> of your total inspections.
+                          More than <span class="has-accent-color">30%</span> of your total inspections.
                         </h5>
                       </div>
                       <div style="margin-top: 10px">
@@ -341,14 +340,16 @@
                 <h4 style="position: absolute; top: 15px; right: 778px;">
                   <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
-                <h4 style="position: absolute;top: 100px;right: 700px;">
-                  <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
+                <h4 style="position: absolute;top: 100px;right: 600px;">
+                  Your products have traveled so many places that we almost lost count.
+                  <br/>
+                  But we always managed to take care of your needs.
                 </h4>
                 <div class="vlt-section__projects-background">
                   <img
                     class="is-active"
                     src="../../static/img/MapFlow.gif"
-                    style="margin-top: 150px;height: 600px;width: 1200px;margin-left: 360px"
+                    style="margin-top: 200px;height: 550px;width: 1200px;margin-left: 360px"
                     alt=""
                     loading="lazy"
                   />

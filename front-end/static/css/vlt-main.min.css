@@ -2292,7 +2292,10 @@ input[type=date]:focus::-webkit-input-placeholder, input[type=email]:focus::-web
   -webkit-flex-direction: column;
   -ms-flex-direction: column
 }
-
+body{
+  width: 1920px;
+  height: 1080px;
+}
 .vlt-fullpage-slider .vlt-section__vertical-align {
   display: -webkit-box;
   display: -webkit-flex;
