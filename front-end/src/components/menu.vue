@@ -523,7 +523,13 @@ a {
   overflow:scroll;
 }
 .vlt-section__content{
-  position: relative;
+  position: relative; 
 }
-
+.vlt-experience-block__number{
+  line-height: 230px;
+}
+.vlt-experience-block__title{
+  height: 220px;
+  padding-top: 80px;
+}
 </style>
