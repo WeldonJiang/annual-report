@@ -123,6 +123,9 @@
           <div class="vlt-section pp-scrollable" data-anchor="Order">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                </h4>
                 <div class="container">
                   <div class="row">
                     <div class="col-xl-6">
@@ -228,10 +231,12 @@
             </div>
           </div>
           <!--Factory-->
-          <!--Section-->
           <div class="vlt-section pp-scrollable" data-anchor="Factory">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                </h4>
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-5">
@@ -290,8 +295,8 @@
           <div class="vlt-section pp-scrollable" data-anchor="Trend">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 120px; right: 778px;">
-                  <span class="has-accent-color">GAP & QIMA Order Trends</span>
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
                 </h4>
                 <div class="vlt-section__projects-background">
                   <img
@@ -308,13 +313,17 @@
           <div class="vlt-section pp-scrollable" data-anchor="Flow">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute;top: 20px;right: 70px;">
-                  <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
                 </h4>
+                <h5 style="position: absolute;top: 120px;right: 70px;">
+                  <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
+                </h5>
                 <div class="vlt-section__projects-background">
                   <img
                     class="is-active"
                     src="../../static/img/MapFlow.gif"
+                    style="margin-top: 100px"
                     alt=""
                     loading="lazy"
                   />
@@ -326,6 +335,9 @@
           <div class="vlt-section pp-scrollable" data-anchor="ServiceType">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 30px; right: 778px;">
+                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                </h4>
                 <h4 style="position: absolute; top: 120px; right: 778px;">
                   <span class="has-accent-color">GAP & QIMA Service Types</span>
                 </h4>
