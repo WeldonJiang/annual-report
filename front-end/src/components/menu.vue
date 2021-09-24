@@ -5,7 +5,7 @@
       <div id="tx1">
         <img src="../../static/img/tx1.png" />
         <div id="tx-title">
-          <span>QIMA AnnulReport</span>
+          <span>Our Memory for 2021</span>
         </div>
       </div>
       <div id="tx2">
@@ -16,12 +16,13 @@
       </div>
       <div id="tx4">
         <img src="../../static/img/tx4.png" />
-        <div id="tx4-brand">Happy New Year!</div>
+        <div id="tx4-brand">Happy holidays Mr. Gryffindor!</div>
       </div>
-      <div id="tx-content">
-        <span>Hello World!</span><br />
-        <span style="font-size: 38px; font-weight: 700">Hello World! 2</span><br />
-        <span>Hello World!Hello World!Hello World!Hello World!</span>
+      <div id="tx-content"> 
+        <span>Happy holidays Mr. Gryffindor!</span><br />
+        <span style="font-size: 38px; font-weight: 700">You and QIMA have come together for 1059 days</span><br /><br />
+        <span>On the date of Jan.16th 2019 </span><br/>
+        <span>We met each other</span>
       </div>
     </div>
     <div id="tx5">
@@ -467,7 +468,7 @@ body {
   display: none;
   height: 300px;
   position: absolute;
-  top: 180px;
+  top: 200px;
   left: 550px;
   text-align: center;
   font-size: 28px;
