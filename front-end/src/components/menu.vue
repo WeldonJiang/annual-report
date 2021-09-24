@@ -28,6 +28,9 @@
     <div id="tx5">
       <a href="#"><span @click="start">Start our journey</span></a>
     </div>
+    <div id="tx6" style="display:none;">
+      <a href="#"><span @click="second">Jump to Red Pocket</span></a>
+    </div>
     <div id="second-page" class="animsition" style="display: none;z-index: -1;">
       <!--Header-->
       <header class="vlt-header vlt-header--default">
@@ -364,6 +367,199 @@
         </div>
       </footer>
     </div>
+    <!-- 红包 -->
+    <div id="three-page" style="display:none;">
+
+      <!-- Unnamed (组 合) -->
+      <div id="u0" class="ax_default" data-left="0" data-top="0" data-width="1024" data-height="995.663844111509">
+
+        <!-- Unnamed (组 合) -->
+        <div id="u1" class="ax_default" data-left="0" data-top="0" data-width="1024" data-height="995.663844111509">
+
+          <!-- Unnamed (组 合) -->
+          <div id="u2" class="ax_default" data-left="0" data-top="0" data-width="1024" data-height="973">
+
+            <!-- Unnamed (图片) -->
+            <div id="u3" class="ax_default _图片">
+              <img id="u3_img" class="img " src="images/打开红包/u3.png"/>
+              <div id="u3_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u4" class="ax_default text_field">
+            <img id="u4_img" class="img " src="images/打开红包/u4.svg"/>
+            <input id="u4_input" type="text" value="1" class="u4_input"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u5" class="ax_default box_1">
+            <img id="u5_img" class="img " src="images/打开红包/u5.svg"/>
+            <div id="u5_text" class="text ">
+              <p><span>Please open the red pocket and get your image for the year</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6" class="ax_default box_1">
+            <img id="u6_img" class="img " src="images/打开红包/u6.svg"/>
+            <div id="u6_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (三角形) -->
+          <div id="u7" class="ax_default flow_shape1">
+            <img id="u7_img" class="img " src="images/打开红包/u7.svg"/>
+            <div id="u7_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (椭圆形) -->
+          <div id="u8" class="ax_default _形状">
+            <img id="u8_img" class="img " src="images/打开红包/u8.svg"/>
+            <div id="u8_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Open Pocket (热区) -->
+          <div id="u9" class="ax_default" data-label="Open Pocket">
+          </div>
+        </div>
+
+        <!-- pop-up (动态面板) -->
+        <div id="u10" class="ax_default ax_default_hidden" data-label="pop-up" style="display:none; visibility: hidden">
+          <div id="u10_state0" class="panel_state" data-label="State1" style="">
+            <div id="u10_state0_content" class="panel_state_content">
+
+              <!-- Unnamed (图片) -->
+              <div id="u11" class="ax_default _图片">
+                <img id="u11_img" class="img " src="images/打开红包/u11.png"/>
+                <div id="u11_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u12" class="ax_default box_1">
+                <img id="u12_img" class="img " src="images/打开红包/u12.svg"/>
+                <div id="u12_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (图片) -->
+              <div id="u13" class="ax_default _图片">
+                <img id="u13_img" class="img " src="images/打开红包/u13.png"/>
+                <div id="u13_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (图片) -->
+              <div id="u14" class="ax_default _图片">
+                <img id="u14_img" class="img " src="images/打开红包/u14.png"/>
+                <div id="u14_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (图片) -->
+              <div id="u15" class="ax_default _图片">
+                <img id="u15_img" class="img " src="images/打开红包/u14.png"/>
+                <div id="u15_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (图片) -->
+              <div id="u16" class="ax_default _图片">
+                <img id="u16_img" class="img " src="images/打开红包/u16.png"/>
+                <div id="u16_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (图片) -->
+              <div id="u17" class="ax_default _图片">
+                <img id="u17_img" class="img " src="images/打开红包/u17.png"/>
+                <div id="u17_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u18" class="ax_default box_1">
+                <img id="u18_img" class="img " src="images/打开红包/u18.svg"/>
+                <div id="u18_text" class="text ">
+                  <p><span>My Image for the year</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19" class="ax_default _文本段落">
+                <div id="u19_div" class=""></div>
+                <div id="u19_text" class="text ">
+                  <p><span style="font-family:'Georgia Bold', 'Georgia Regular', 'Georgia', sans-serif;font-weight:700;">QIMA</span><span style="font-family:'Georgia', sans-serif;font-weight:400;"> is a leading provider of supply chain compliance solutions, that partners with brands, retailers and importers to secure, manage and optimize their global supply network.</span></p><p><span style="font-family:'Georgia', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'Georgia', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'Georgia', sans-serif;font-weight:400;">Sign up for Newsletters!</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (文本框) -->
+              <div id="u20" class="ax_default text_field">
+                <div id="u20_div" class=""></div>
+                <input id="u20_input" type="text" value="&nbsp;" class="u20_input"/>
+              </div>
+
+              <!-- Unnamed (组 合) -->
+              <div id="u21" class="ax_default" data-left="384" data-top="346" data-width="28" data-height="24">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u22" class="ax_default box_1">
+                  <img id="u22_img" class="img " src="images/打开红包/u22.svg"/>
+                  <div id="u22_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (形状) -->
+                <div id="u23" class="ax_default icon">
+                  <img id="u23_img" class="img " src="images/打开红包/u23.svg"/>
+                  <div id="u23_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Close (形状) -->
+              <div id="u24" class="ax_default icon" data-label="Close">
+                <img id="u24_img" class="img " src="images/打开红包/close_u24.svg"/>
+                <div id="u24_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u25" class="ax_default box_1">
+                <img id="u25_img" class="img " src="images/打开红包/u25.svg"/>
+                <div id="u25_text" class="text ">
+                  <p><span>Enter Email address</span></p>
+                </div>
+              </div>
+
+              <!-- Key word (文本框) -->
+              <div id="u26" class="ax_default text_field" data-label="Key word">
+                <img id="u26_img" class="img " src="images/打开红包/key_word_u26.svg"/>
+                <input id="u26_input" type="text" value="Inspectaholic" class="u26_input"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -379,8 +575,17 @@ export default {
     start() {
       $("#first-page").hide();
       $("#tx5").hide();
+      $("#tx6").show();
       $("#second-page").show();
+      $("#three-page").hide();
     },
+    second(){
+      $("#first-page").hide();
+      $("#tx5").hide();
+      $("#tx6").hide();
+      $("#second-page").hide();
+      $("#three-page").show();
+    }
   },
   mounted() {}
 };
@@ -509,6 +714,32 @@ body {
 #tx5 a:hover {
   background: #ff8a9a;
 }
+#tx6 {
+  text-align: center;
+  color: #000;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 850px;
+  right: 80px;
+  font-size: 28px;
+  z-index: 101;
+}
+#tx6 a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #8b1a29;
+  background: #b82d3f;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+  font-size: 22px;
+  border-radius: 24px;
+}
+#tx6 a:hover {
+  background: #a71c2e;
+}
 h1,
 h2 {
   font-weight: normal;
@@ -539,5 +770,8 @@ a {
 .vlt-experience-block__title{
   height: 220px;
   padding-top: 80px;
+}
+.vlt-social-icon.vlt-social-icon--style-1{
+  color:#42b98300;
 }
 </style>
