@@ -263,7 +263,7 @@
                 <h4 style="position: absolute; top: 15px; right: 778px;">
                   <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
-                <div class="container" style="position: absolute; top: -100px; left: 1000px;">
+                <div class="container" style="position: absolute; top: -50px; left: 1000px;">
                   <div class="row">
                     <div>
                       <div class="vlt-gap-160"></div>
@@ -323,6 +323,7 @@
                   <img
                     class="is-active"
                     src="../../static/img/OrderTrends.png"
+                    style="margin-top: -113px;"
                     alt=""
                     loading="lazy"
                   />
@@ -331,20 +332,20 @@
             </div>
           </div>
           <!--Flow-->
-          <div class="vlt-section pp-scrollable" data-anchor="Flow">
+          <div class="vlt-section pp-scrollable" data-anchor="Flow" style="background-color: #fff;">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
                 <h4 style="position: absolute; top: 15px; right: 778px;">
                   <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
-                <h5 style="position: absolute;top: 120px;right: 70px;">
+                <h4 style="position: absolute;top: 100px;right: 700px;">
                   <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
-                </h5>
+                </h4>
                 <div class="vlt-section__projects-background">
                   <img
                     class="is-active"
                     src="../../static/img/MapFlow.gif"
-                    style="margin-top: 100px"
+                    style="margin-top: 150px;height: 600px;width: 1200px;margin-left: 360px"
                     alt=""
                     loading="lazy"
                   />
