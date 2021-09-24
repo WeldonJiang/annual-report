@@ -1,25 +1,14 @@
 <template>
   <div class="animsition">
     <div id="dev1">
-      <h1>
+      <!-- <h1>
         {{ msg }} <span style="color: red">{{ team }}</span>
-      </h1>
+      </h1> -->
       <ul>
         <li>
           <!-- <router-link to="/annualReport">seeShare</router-link> -->
           <button id="button" @click="seeShare">seeShare</button>
           
-        </li>
-        <li>
-          <a href="https://sso.qima.com/inspection/" target="_blank"> QIMA </a>
-        </li>
-        <li>
-          <a
-            href="https://asiainspection.atlassian.net/secure/RapidBoard.jspa?projectKey=SP&rapidView=116"
-            target="_blank"
-          >
-            Ticket
-          </a>
         </li>
       </ul>
     </div>
@@ -1429,6 +1418,6 @@ a {
   color: #42b983;
 }
 #dev1{
-  padding-top: 300px;
+  padding-top: 500px;
 }
 </style>
