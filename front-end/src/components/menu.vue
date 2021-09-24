@@ -1,14 +1,10 @@
 <template>
   <div class="animsition">
     <div id="dev1">
-      <!-- <h1>
-        {{ msg }} <span style="color: red">{{ team }}</span>
-      </h1> -->
       <ul>
         <li>
-          <!-- <router-link to="/annualReport">seeShare</router-link> -->
-          <button id="button" @click="seeShare">seeShare</button>
-          
+          <a class="vlt-social-icon vlt-social-icon--style-1" href="#"
+          ><span  @click="seeShare">seeShare</span></a>
         </li>
       </ul>
     </div>
@@ -1418,6 +1414,6 @@ a {
   color: #42b983;
 }
 #dev1{
-  padding-top: 500px;
+  padding-top: 300px;
 }
 </style>
