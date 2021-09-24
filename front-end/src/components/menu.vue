@@ -1,49 +1,48 @@
 <template>
-  <div class="animsition">
-    <div id="dev1">
-      <ul>
-        <li>
-          <a class="vlt-social-icon vlt-social-icon--style-1" href="#"
-          ><span  @click="seeShare">seeShare</span></a>
-        </li>
-      </ul>
+  <div>
+    <canvas id="background" style="height: 100%"></canvas>
+    <div id="first-page">
+      <div id="tx1">
+        <img src="../../static/img/tx1.png" />
+        <div id="tx-title">
+          <span>QIMA AnnulReport</span>
+        </div>
+      </div>
+      <div id="tx2">
+        <img src="../../static/img/tx2.png" />
+      </div>
+      <div id="tx3">
+        <img src="../../static/img/tx3.png" />
+      </div>
+      <div id="tx4">
+        <img src="../../static/img/tx4.png" />
+        <div id="tx4-brand">Happy New Year!</div>
+      </div>
+      <div id="tx-content">
+        <span>Hello World!</span><br />
+        <span style="font-size: 38px; font-weight: 700">Hello World! 2</span><br />
+        <span>Hello World!Hello World!Hello World!Hello World!</span>
+      </div>
     </div>
-    <div id="dev2" style="display: none;">
+    <div id="tx5">
+      <a href="#"><span @click="start">Start our journey</span></a>
+    </div>
+    <div id="second-page" class="animsition" style="display: none">
       <!--Header-->
       <header class="vlt-header vlt-header--default">
-        <div
-          class="
-            vlt-navbar
-            vlt-navbar--main
-            vlt-navbar--transparent
-            vlt-navbar--sticky
-          "
-        >
+        <div class=" vlt-navbar vlt-navbar--main vlt-navbar--transparent vlt-navbar--sticky">
           <div class="vlt-navbar-background"></div>
           <div class="vlt-navbar-inner">
             <div class="vlt-navbar-inner--left">
-              <!--Logo--><a class="vlt-navbar-logo"
-                ><img src="../../static/img/qima_log.png" alt="Gilber"
-              /></a>
+              <!--Logo--><a class="vlt-navbar-logo"><img src="../../static/img/qima_log.png" alt="Gilber"/></a>
             </div>
             <div class="vlt-navbar-inner--right">
               <div class="d-flex align-items-center">
                 <!--Contacts-->
                 <div class="vlt-navbar-contacts"><a href=""></a></div>
-                <!--Menu Burger--><a
-                  class="vlt-menu-burger js-offcanvas-menu-open"
-                  href="#"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  >
+                <!--Menu Burger--><a class="vlt-menu-burger js-offcanvas-menu-open" href="#" >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"
+                    stroke-linejoin="round" >
                     <line x1="3" y1="12" x2="21" y2="12" />
                     <line x1="3" y1="6" x2="21" y2="6" />
                     <line x1="3" y1="18" x2="21" y2="18" /></svg
@@ -67,7 +66,8 @@
               js-offcanvas-menu-close
             "
             href="#"
-            ><svg
+          >
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               stroke="currentColor"
@@ -93,7 +93,7 @@
           </div>
           <!--Copyright-->
           <div class="vlt-offcanvas-menu__copyright">
-            <p>© 2020 Copyright.<br />All rights reserved.</p>
+            <p>© 2021 Copyright.<br />All rights reserved.</p>
           </div>
         </div>
       </div>
@@ -181,7 +181,7 @@
                           data-animation-speed="1000"
                         >
                           <h5 class="vlt-progress-bar__title">
-                            Inspection<span class="counter">0</span>
+                            Inspection<span class="counter">80</span>
                           </h5>
                           <div class="vlt-progress-bar__bar"><span></span></div>
                         </div>
@@ -200,7 +200,7 @@
                           data-animation-speed="1000"
                         >
                           <h5 class="vlt-progress-bar__title">
-                            Audit<span class="counter">0</span>
+                            Audit<span class="counter">50</span>
                           </h5>
                           <div class="vlt-progress-bar__bar"><span></span></div>
                         </div>
@@ -219,7 +219,7 @@
                           data-animation-speed="1000"
                         >
                           <h5 class="vlt-progress-bar__title">
-                            Certification<span class="counter">0</span>
+                            Certification<span class="counter">30</span>
                           </h5>
                           <div class="vlt-progress-bar__bar"><span></span></div>
                         </div>
@@ -258,6 +258,7 @@
                         <span class="vlt-display-1 has-white-color"
                         >2021 Most Order Factories: Foxconn</span
                         >
+
                       </div>
                       <div class="vlt-gap-15"></div>
                       <!--Animated Block-->
@@ -277,6 +278,7 @@
                         data-animation-name="fadeInUpSm"
                         style="animation-delay: 0.3s; animation-duration: 700ms"
                       >
+
                         <h5>
                           Congratulations on completing <span class="has-accent-color">30</span> inspections on products
                           of Foxconn this year.
@@ -352,6 +354,7 @@
               </div>
             </div>
           </div>
+
           <!--Progress Bar-->
           <div class="vlt-fullpage-slider-progress-bar"><span></span></div>
         </div>
@@ -370,28 +373,143 @@
 export default {
   name: "menu",
   data() {
-    return {
-      msg: "Welcome to",
-      team: "Gryffindor",
-    };
+    return {};
   },
   methods: {
-    seeShare() {
-      debugger;
-      $("#dev1").hide();
-      $("#dev2").show();
-      // let routeUrl = this.$router.resolve({
-      //   path: "/annualReport",
-      // });
-      // window.open(routeUrl.href, "_self");
+    start() {
+      $("#first-page").hide();
+      $("#tx5").hide();
+      $("#second-page").show();
+      $("#background").hide();
     },
   },
-  mounted() {},
+  mounted() {}
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Georgia";
+}
+#first-page {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+.hide {
+  display: none;
+}
+.default-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#tx1 {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+#tx-title {
+  display: none;
+  width: 360px;
+  height: 45px;
+  position: absolute;
+  top: 93px;
+  left: 750px;
+  text-align: center;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+}
+#tx2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+#tx3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+#tx4 {
+  height: 100%;
+  width: 757px;
+  position: absolute;
+  z-index: 4;
+}
+#tx4-brand {
+  position: absolute;
+  bottom: 110px;
+  left: 120px;
+  width: 380px;
+  height: 220px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 220px;
+  transform: rotate(13deg);
+  -ms-transform: rotate(13deg);
+  -moz-transform: rotate(13deg);
+  -webkit-transform: rotate(13deg);
+  -o-transform: rotate(13deg);
+}
+#tx-content {
+  text-align: center;
+  color: #000;
+  width: 780px;
+  display: none;
+  height: 300px;
+  position: absolute;
+  top: 180px;
+  left: 550px;
+  text-align: center;
+  font-size: 28px;
+  z-index: 5;
+}
+#tx5 {
+  display: none;
+  text-align: center;
+  color: #000;
+  width: 220px;
+  height: 300px;
+  position: absolute;
+  top: 580px;
+  left: 830px;
+  font-size: 28px;
+  z-index: 101;
+}
+#tx5 a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #f0a4ae;
+  background: #f0a4ae;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  font-size: 22px;
+  border-radius: 24px;
+}
+#tx5 a:hover {
+  background: #ff8a9a;
+}
 h1,
 h2 {
   font-weight: normal;
@@ -407,7 +525,14 @@ li {
 a {
   color: #42b983;
 }
-#dev1{
-  padding-top: 300px;
+#second-page{
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  overflow:scroll;
 }
+.vlt-section__content{
+  position: relative;
+}
+
 </style>
