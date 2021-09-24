@@ -18,7 +18,7 @@
         <img src="../../static/img/tx4.png" />
         <div id="tx4-brand">Happy holidays Mr. Gryffindor!</div>
       </div>
-      <div id="tx-content"> 
+      <div id="tx-content">
         <span>Happy holidays Mr. Gryffindor!</span><br />
         <span style="font-size: 38px; font-weight: 700">You and QIMA have come together for 1059 days</span><br /><br />
         <span>On the date of Jan.16th 2019 </span><br/>
@@ -28,7 +28,7 @@
     <div id="tx5">
       <a href="#"><span @click="start">Start our journey</span></a>
     </div>
-    <div id="second-page" class="animsition" style="display: none">
+    <div id="second-page" class="animsition" style="display: none;z-index: -1;">
       <!--Header-->
       <header class="vlt-header vlt-header--default">
         <div class=" vlt-navbar vlt-navbar--main vlt-navbar--transparent vlt-navbar--sticky">
@@ -124,17 +124,18 @@
           <div class="vlt-section pp-scrollable" data-anchor="ServiceType">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 30px; right: 778px;">
-                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                <h4 style="position: absolute; top: 15px; right: 778px;">
+                  <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
-                <h4 style="margin-top: -600px;alignment: center">
+                <h4 style="margin-top: -650px;margin-left: 400px">
                   We are so happy that you and QIMA have so many business communications.
+                  <br/>
                   Here are the <span class="has-accent-color">QIMA Services</span> we have provided.
                 </h4>
                 <div class="vlt-section__projects-background">
                   <img
                     class="is-active"
-                    src="../../static/img/ServiceTypes.png"
+                    src="../../static/img/ServiceTypes1.png"
                     alt=""
                     loading="lazy"
                   />
@@ -147,8 +148,8 @@
           <div class="vlt-section pp-scrollable" data-anchor="Order">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 30px; right: 778px;">
-                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                <h4 style="position: absolute; top: 15px; right: 778px;">
+                  <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
                 <div class="container">
                   <div class="row">
@@ -160,7 +161,7 @@
                       >
                         <div class="vlt-experience-block">
                           <span class="vlt-experience-block__number"
-                          >129<span class="has-accent-color">.</span></span
+                          >129</span
                           >
                           <h5 class="vlt-experience-block__title">
                             Orders<br/>Finished<br/>2021
@@ -259,28 +260,28 @@
           <div class="vlt-section pp-scrollable" data-anchor="Factory">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 30px; right: 778px;">
-                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                <h4 style="position: absolute; top: 15px; right: 778px;">
+                  <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
-                <div class="container">
+                <div class="container" style="position: absolute; top: -100px; left: 1000px;">
                   <div class="row">
-                    <div class="col-lg-5">
+                    <div>
                       <div class="vlt-gap-160"></div>
                       <!--Animated Block-->
                       <div class="vlt-animated-block"
                            data-animation-name="fadeInUpSm"
                            style="animation-delay: 0s; animation-duration: 700ms">
                       </div>
-                      <div class="vlt-gap-100"></div>
+                      <div class="vlt-gap-310"></div>
                       <!--Animated Block-->
                       <div class="vlt-gap-15"></div>
                       <!--Animated Block-->
                       <div class="vlt-animated-block"
                            data-animation-name="fadeInUpSm"
                            style="animation-delay: 0.2s; animation-duration: 700ms">
-                        <h4 class="vlt-large-heading">
+                        <h2 class="vlt-large-heading">
                           GAP & <span class="has-accent-color">QIMA</span> & Foxconn
-                        </h4>
+                        </h2>
                       </div>
                       <div class="vlt-animated-block"
                            data-animation-name="fadeInUpSm"
@@ -299,6 +300,11 @@
                           More than <span class="has-accent-color">20%</span> of your total inspections.
                         </h5>
                       </div>
+                      <div style="margin-top: 10px">
+                        <img src="../../static/img/GAP.png" height="200px" style="height: 150px" />
+                        <img src="../../static/img/qima_big_logo.png" height="200px" style="height: 200px" />
+                        <img src="../../static/img/Foxconn2.png" height="200px" style="height: 150px" />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -310,8 +316,8 @@
           <div class="vlt-section pp-scrollable" data-anchor="Trend">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 30px; right: 778px;">
-                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                <h4 style="position: absolute; top: 15px; right: 778px;">
+                  <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
                 <div class="vlt-section__projects-background">
                   <img
@@ -328,8 +334,8 @@
           <div class="vlt-section pp-scrollable" data-anchor="Flow">
             <div class="vlt-section__vertical-align">
               <div class="vlt-section__content">
-                <h4 style="position: absolute; top: 30px; right: 778px;">
-                  <span class="has-accent-color">QIMA Service Summary 2021</span>
+                <h4 style="position: absolute; top: 15px; right: 778px;">
+                  <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
                 </h4>
                 <h5 style="position: absolute;top: 120px;right: 70px;">
                   <span class="has-accent-color">Your products (inspected by QIMA) destinations</span>
@@ -364,14 +370,15 @@
 export default {
   name: "menu",
   data() {
-    return {};
+    return {
+      customerName:"GAP"
+    };
   },
   methods: {
     start() {
       $("#first-page").hide();
       $("#tx5").hide();
       $("#second-page").show();
-      $("#background").hide();
     },
   },
   mounted() {}
@@ -523,7 +530,7 @@ a {
   overflow:scroll;
 }
 .vlt-section__content{
-  position: relative; 
+  position: relative;
 }
 .vlt-experience-block__number{
   line-height: 230px;

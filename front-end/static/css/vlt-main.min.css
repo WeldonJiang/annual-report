@@ -2276,7 +2276,7 @@ input[type=date]:focus::-webkit-input-placeholder, input[type=email]:focus::-web
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
-  background-color: #e4e4e4;
+  background-image: url('../../static/img/tx5.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
