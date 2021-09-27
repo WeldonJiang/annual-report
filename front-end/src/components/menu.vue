@@ -29,7 +29,7 @@
       <a href="#"><span @click="start">Start our journey</span></a>
     </div>
     <div id="tx6" style="display:none;">
-      <a href="#"><span @click="second">Get My Luck Word</span></a>
+      <a href="#"><span @click="second">Get My Lucky Word</span></a>
     </div>
     <div id="second-page" class="animsition" style="display: none;z-index: -1;">
       <!--Header-->
@@ -373,7 +373,7 @@
 
       <div id="tx7">
         <img src="../../static/img/redPage.png" />
-        
+
       </div>
       <div id="positionCheck" @click="redClick" ></div>
     </div>
@@ -381,7 +381,7 @@
 
       <div id="tx8">
         <img src="../../static/img/red2.png" />
-        
+
       </div>
       <div id="positionCheck2" @click="redClick2" ></div>
     </div>
