@@ -282,13 +282,13 @@
                            data-animation-name="fadeInUpSm"
                            style="animation-delay: 0.2s; animation-duration: 700ms">
                         <h2 class="vlt-large-heading">
-                          {{customerName}} & <span class="has-accent-color">QIMA</span> & Foxconn
+                          {{customerName}} & <span class="has-accent-color">QIMA</span> & RedCollar
                         </h2>
                       </div>
                       <div class="vlt-animated-block"
                            data-animation-name="fadeInUpSm"
                            style="animation-delay: 0.1s; animation-duration: 700ms">
-                        <h4>2021 Most Order Factories: Foxconn</h4>
+                        <h4>2021 Most Order Factories: RedCollar</h4>
                       </div>
                       <div class="vlt-gap-15"></div>
                       <div class="vlt-animated-block"
@@ -296,7 +296,7 @@
                            style="animation-delay: 0.3s; animation-duration: 700ms">
                         <h5>
                           Congratulations on completing more than <span class="has-accent-color">800</span> inspections on products
-                          of Foxconn this year.
+                          of RedCollar this year.
                         </h5>
                         <h5>
                           More than <span class="has-accent-color">30%</span> of your total inspections.
@@ -305,7 +305,7 @@
                       <div style="margin-top: 10px">
                         <img src="../../static/img/GAP.png" height="200px" style="height: 150px" />
                         <img src="../../static/img/qima_big_logo.png" height="200px" style="height: 200px" />
-                        <img src="../../static/img/Foxconn2.png" height="200px" style="height: 150px" />
+                        <img src="../../static/img/RedCollar.png" height="200px" style="height: 150px" />
                       </div>
                     </div>
                   </div>
@@ -357,6 +357,58 @@
               </div>
             </div>
           </div>
+
+          <!--End-->
+          <div class="vlt-section pp-scrollable" data-anchor="Factory">
+            <div class="vlt-section__vertical-align">
+              <div class="vlt-section__content">
+                <h4 style="position: absolute; top: 15px; right: 778px;">
+                  <span class="has-white-color">{{customerName}} - QIMA Service Summary 2021</span>
+                </h4>
+                <div class="container" style="position: absolute; top: -50px; left: 1000px;">
+                  <div class="row">
+                    <div>
+                      <div class="vlt-gap-160"></div>
+                      <!--Animated Block-->
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0s; animation-duration: 700ms">
+                      </div>
+                      <div class="vlt-gap-310"></div>
+                      <!--Animated Block-->
+                      <div class="vlt-gap-15"></div>
+                      <!--Animated Block-->
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0.2s; animation-duration: 700ms">
+                        <h2 class="vlt-large-heading">
+                          That is the QIMA Service Summary 2021 for you. We are so glade that we went such a distance together!
+                        </h2>
+                      </div>
+                      <div class="vlt-gap-15"></div>
+                      <div class="vlt-animated-block"
+                           data-animation-name="fadeInUpSm"
+                           style="animation-delay: 0.3s; animation-duration: 700ms">
+                        <h5>
+
+                        </h5>
+                        <h5 class="has-accent-color">
+                          Click button on the bottom right to get your lucky word of 2021.
+                        </h5>
+                      </div>
+                      <div style="position: absolute;bottom: 500px;right: 500px;">
+                        <h5>
+
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <!--Progress Bar-->
           <div class="vlt-fullpage-slider-progress-bar"><span></span></div>
         </div>
